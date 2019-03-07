@@ -18,7 +18,7 @@ return [
     // 应用命名空间
     'app_namespace'          => 'app',
     // 应用调试模式
-    'app_debug'              => Env::get('app.debug', false),
+    'app_debug'              => Env::get('app.debug', true),
     // 应用Trace
     'app_trace'              => Env::get('app.trace', false),
     // 应用模式状态
@@ -30,7 +30,7 @@ return [
     // 注册的根命名空间
     'root_namespace'         => [],
     // 扩展函数文件
-    'extra_file_list'        => [THINK_PATH . 'helper' . EXT],
+    'extra_file_list'        => [ THINK_PATH . 'helper' . EXT ],
     // 默认输出类型
     'default_return_type'    => 'html',
     // 默认AJAX 数据返回格式,可选json xml ...
@@ -55,9 +55,9 @@ return [
     // | 模块设置
     // +----------------------------------------------------------------------
     // 默认模块名
-    'default_module'         => 'index',
+    'default_module'         => 'admin',
     // 禁止访问模块
-    'deny_module_list'       => ['common'],
+    'deny_module_list'       => [ 'common', 'admin' ],
     // 默认控制器名
     'default_controller'     => 'Index',
     // 默认操作名
@@ -76,7 +76,7 @@ return [
     // PATHINFO变量名 用于兼容模式
     'var_pathinfo'           => 's',
     // 兼容PATH_INFO获取
-    'pathinfo_fetch'         => ['ORIG_PATH_INFO', 'REDIRECT_PATH_INFO', 'REDIRECT_URL'],
+    'pathinfo_fetch'         => [ 'ORIG_PATH_INFO', 'REDIRECT_PATH_INFO', 'REDIRECT_URL' ],
     // pathinfo分隔符
     'pathinfo_depr'          => '/',
     // URL伪静态后缀
@@ -90,7 +90,7 @@ return [
     // 路由使用完整匹配
     'route_complete_match'   => false,
     // 路由配置文件（支持配置多个）
-    'route_config_file'      => ['route'],
+    'route_config_file'      => [ 'route' ],
     // 是否强制使用路由
     'url_route_must'         => false,
     // 域名部署
@@ -162,7 +162,7 @@ return [
         // 日志保存目录
         'path'  => LOG_PATH,
         // 日志记录级别
-        'level' => [],
+        'level' => [ 'error' ],
     ],
     // +----------------------------------------------------------------------
     // | Trace设置 开启 app_trace 后 有效
@@ -174,15 +174,30 @@ return [
     // +----------------------------------------------------------------------
     // | 缓存设置
     // +----------------------------------------------------------------------
+//    'cache'                  => [
+//        // 驱动方式
+//        'type'   => 'File',
+//        // 缓存保存目录
+//        'path'   => CACHE_PATH,
+//        // 缓存前缀
+//        'prefix' => '',
+//        // 缓存有效期 0表示永久缓存
+//        'expire' => 0,
+//    ],
+//修改缓存设置 改成radis
     'cache'                  => [
         // 驱动方式
-        'type'   => 'File',
+        'type'     => 'Redis',
+        'host'     => Env::get('redis.REDIS_HOST', '127.0.0.1'),
+        'port'     => Env::get('redis.REDIS_PORT', '6379'),
+        'password' => Env::get('redis.REDIS_AUTH_PASSWORD', ''),
+        'timeout'  => 3600,
         // 缓存保存目录
-        'path'   => CACHE_PATH,
+        'path'     => CACHE_PATH,
         // 缓存前缀
-        'prefix' => '',
+        'prefix'   => '',
         // 缓存有效期 0表示永久缓存
-        'expire' => 0,
+        'expire'   => 0,
     ],
     // +----------------------------------------------------------------------
     // | 会话设置

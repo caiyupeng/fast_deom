@@ -1,0 +1,4 @@
+---------------------------------------------------------------
+[ 2019-03-07T15:10:47+08:00 ] 10.211.55.2 GET fastadmindemo.com/adminXN9hlB8P5i.php/general/logs/index?file_paths=\201903\07.log&sort=id&order=desc&filter=%7B%7D&op=%7B%7D&_=1551942587665
+[运行时间：0.605180s] [吞吐率：1.65req/s] [内存消耗：4,075.04kb] [文件加载：79]
+[ error ] [8]未定义数组下标: -1[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\library\Log.php:150]
