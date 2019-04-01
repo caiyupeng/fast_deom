@@ -12,4 +12,5 @@ class Index extends Controller
         $this->error("当前插件暂无前台页面");
     }
 
+
 }
