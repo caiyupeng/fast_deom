@@ -1,0 +1,54 @@
+---------------------------------------------------------------
+[ 2019-04-03T15:50:41+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：0.907300s] [吞吐率：1.10req/s] [内存消耗：4,264.14kb] [文件加载：85]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5ca465d0aad9b.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]
+[ error ] [0]语法解析错误: syntax error, unexpected ''name'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'[Z:\Applications\MAMP\htdocs\fastadmindemo\addons\weixin\Weixin.php:33]
+---------------------------------------------------------------
+[ 2019-04-03T15:51:58+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：0.830091s] [吞吐率：1.20req/s] [内存消耗：4,264.16kb] [文件加载：85]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5ca4661e14d59.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]
+[ error ] [0]语法解析错误: syntax error, unexpected ''name'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'[Z:\Applications\MAMP\htdocs\fastadmindemo\addons\weixin\Weixin.php:33]
+---------------------------------------------------------------
+[ 2019-04-03T15:53:32+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：2.422972s] [吞吐率：0.41req/s] [内存消耗：4,277.53kb] [文件加载：90]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5ca4667a19082.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]
+---------------------------------------------------------------
+[ 2019-04-03T15:55:21+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：2.056586s] [吞吐率：0.49req/s] [内存消耗：4,277.53kb] [文件加载：90]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5ca466e7aae85.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]
+---------------------------------------------------------------
+[ 2019-04-03T15:58:18+08:00 ] 10.211.55.2 GET fastadmindemo.com/adminXN9hlB8P5i.php/test/index/index
+[运行时间：0.987161s] [吞吐率：1.01req/s] [内存消耗：3,993.38kb] [文件加载：81]
+[ error ] [2]array_intersect_key(): Argument #1 is not an array[Z:\Applications\MAMP\htdocs\fastadmindemo\application\common\library\Menu.php:34]
+---------------------------------------------------------------
+[ 2019-04-03T16:04:21+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：1.600304s] [吞吐率：0.62req/s] [内存消耗：4,285.56kb] [文件加载：91]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5ca4690461a00.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]
+---------------------------------------------------------------
+[ 2019-04-03T16:10:13+08:00 ] 10.211.55.2 GET fastadmindemo.com/Wap/Weixinindex/index?code=061uhkbk1CDiAn0oqzck1DMjbk1uhkbQ&state=2018
+[运行时间：0.945843s] [吞吐率：1.06req/s] [内存消耗：3,714.88kb] [文件加载：76]
+[ error ] [2]fopen(Z:\Applications\MAMP\htdocs\fastadmindemo\public\/uploads/usericon/806a196347f159c3eefaec6e5d0cd3f1.jpg): failed to open stream: No such file or directory[Z:\Applications\MAMP\htdocs\fastadmindemo\application\wap\controller\Weixinindex.php:133]
+---------------------------------------------------------------
+[ 2019-04-03T16:12:17+08:00 ] 10.211.55.2 GET fastadmindemo.com/Wap/Weixinindex/index?code=081DSgpP0f62j52HBqrP0FuepP0DSgpd&state=2018
+[运行时间：0.881272s] [吞吐率：1.13req/s] [内存消耗：3,713.02kb] [文件加载：75]
+[ error ] [0]数据表字段不存在:[city][Z:\Applications\MAMP\htdocs\fastadmindemo\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-04-03T16:12:35+08:00 ] 10.211.55.2 GET fastadmindemo.com/Wap/Weixinindex/index?code=061nEs7i2P5B6C0NfJ7i2jXw7i2nEs7h&state=2018
+[运行时间：0.706326s] [吞吐率：1.42req/s] [内存消耗：3,713.36kb] [文件加载：75]
+[ error ] [0]数据表字段不存在:[ip][Z:\Applications\MAMP\htdocs\fastadmindemo\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-04-03T16:12:44+08:00 ] 10.211.55.2 GET fastadmindemo.com/Wap/Weixinindex/index?code=081qLuAk2mpbRE0ge0Bk2LjDAk2qLuAm&state=2018
+[运行时间：0.636816s] [吞吐率：1.57req/s] [内存消耗：3,680.45kb] [文件加载：77]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value[Z:\Applications\MAMP\htdocs\fastadmindemo\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-04-03T16:13:41+08:00 ] 10.211.55.2 GET fastadmindemo.com/Wap/Weixinindex/index?code=001k7NKe0QZBet12zXIe0VUQKe0k7NKg&state=2018
+[运行时间：0.697365s] [吞吐率：1.43req/s] [内存消耗：3,673.39kb] [文件加载：75]
+[ error ] [0]数据表字段不存在:[weigh][Z:\Applications\MAMP\htdocs\fastadmindemo\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-04-03T16:14:46+08:00 ] 10.211.55.2 GET fastadmindemo.com/Wap/Weixinindex/index?code=081yfE1y0t8Hac1ANO3y0vwj1y0yfE1s&state=2018
+[运行时间：1.086881s] [吞吐率：0.92req/s] [内存消耗：3,677.44kb] [文件加载：76]
+[ error ] [0]致命错误: Class 'app\common\model\WeixinConfig' not found[Z:\Applications\MAMP\htdocs\fastadmindemo\extend\mikkle\tp_wechat\base\WechatBase.php:88]
+---------------------------------------------------------------
+[ 2019-04-03T16:16:13+08:00 ] 10.211.55.2 GET fastadmindemo.com/adminXN9hlB8P5i.php/weixin/member/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1554278667397
+[运行时间：0.746340s] [吞吐率：1.34req/s] [内存消耗：4,115.99kb] [文件加载：81]
+[ error ] [0]method not exist:think\db\Query->getUserstatusList[Z:\Applications\MAMP\htdocs\fastadmindemo\thinkphp\library\think\db\Query.php:103]

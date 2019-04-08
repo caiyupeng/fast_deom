@@ -1,0 +1,218 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Openid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-openid" data-rule="required" class="form-control" name="row[openid]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Nickname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-nickname" data-rule="required" class="form-control" name="row[nickname]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Miniavatar')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-miniavatar" data-rule="required" class="form-control" size="50" name="row[miniavatar]" type="text" value="">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-miniavatar" class="btn btn-danger plupload" data-input-id="c-miniavatar" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-miniavatar"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-miniavatar" class="btn btn-primary fachoose" data-input-id="c-miniavatar" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-miniavatar"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-miniavatar"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Photoavatars')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-photoavatars" data-rule="required" class="form-control" size="50" name="row[photoavatars]" type="text" value="">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-photoavatars" class="btn btn-danger plupload" data-input-id="c-photoavatars" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="true" data-preview-id="p-photoavatars"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-photoavatars" class="btn btn-primary fachoose" data-input-id="c-photoavatars" data-mimetype="image/*" data-multiple="true"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-photoavatars"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-photoavatars"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Sex')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-sex" data-rule="required" class="form-control selectpicker" name="row[sex]">
+                {foreach name="sexList" item="vo"}
+                    <option value="{$key}" {in name="key" value="1"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Idcard')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-idcard" data-rule="required" class="form-control" name="row[idcard]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Birthday')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-birthday" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[birthday]" type="text" value="{:date('Y-m-d')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Phone')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-phone" data-rule="required" class="form-control" name="row[phone]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Userstatus')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="userstatusList" item="vo"}
+            <label for="row[userstatus]-{$key}"><input id="row[userstatus]-{$key}" name="row[userstatus]" type="radio" value="{$key}" {in name="key" value="1"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Jobs')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-jobs" data-rule="required" class="form-control" name="row[jobs]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Singlestatus')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="singlestatusList" item="vo"}
+            <label for="row[singlestatus]-{$key}"><input id="row[singlestatus]-{$key}" name="row[singlestatus]" type="radio" value="{$key}" {in name="key" value="2"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Height')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-height" data-rule="required" class="form-control" name="row[height]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Origin')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-origin" data-rule="required" class="form-control" name="row[origin]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Company')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-company" data-rule="required" class="form-control" name="row[company]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('School')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-school" data-rule="required" class="form-control" name="row[school]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Educationstatus')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="educationstatusList" item="vo"}
+            <label for="row[educationstatus]-{$key}"><input id="row[educationstatus]-{$key}" name="row[educationstatus]" type="radio" value="{$key}" {in name="key" value="3"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Income')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-income" data-rule="required" class="form-control" name="row[income]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Marrystatus')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="marrystatusList" item="vo"}
+            <label for="row[marrystatus]-{$key}"><input id="row[marrystatus]-{$key}" name="row[marrystatus]" type="radio" value="{$key}" {in name="key" value="1"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Interestcontent')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-interestcontent" data-rule="required" class="form-control editor" rows="5" name="row[interestcontent]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Weigh')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-weigh" data-rule="required" class="form-control" name="row[weigh]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Loginip')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-loginip" data-rule="required" class="form-control" name="row[loginip]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Promisestatus')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="promisestatusList" item="vo"}
+            <label for="row[promisestatus]-{$key}"><input id="row[promisestatus]-{$key}" name="row[promisestatus]" type="radio" value="{$key}" {in name="key" value="2"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Points')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-points" data-rule="required" class="form-control" name="row[points]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Registerstatus')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="registerstatusList" item="vo"}
+            <label for="row[registerstatus]-{$key}"><input id="row[registerstatus]-{$key}" name="row[registerstatus]" type="radio" value="{$key}" {in name="key" value="2"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

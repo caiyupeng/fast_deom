@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2019-04-08T11:52:38+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：0.786560s] [吞吐率：1.27req/s] [内存消耗：4,295.55kb] [文件加载：91]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5caac585dc9b5.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]
+---------------------------------------------------------------
+[ 2019-04-08T11:52:44+08:00 ] 10.211.55.2 GET fastadmindemo.com/adminXN9hlB8P5i.php/wechatapp/user?addtabs=1
+[运行时间：0.531361s] [吞吐率：1.88req/s] [内存消耗：4,113.67kb] [文件加载：81]
+[ error ] [0]致命错误: Class 'app\common\model\wechatapp\User' not found[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\wechatapp\User.php:25]
+---------------------------------------------------------------
+[ 2019-04-08T11:55:36+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：1.037891s] [吞吐率：0.96req/s] [内存消耗：4,295.61kb] [文件加载：91]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5caac6383dfdf.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]
