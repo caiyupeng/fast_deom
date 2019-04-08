@@ -1,442 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be0e3ece-25a9-42c7-a1be-f1d306b80c39" name="Default" comment="删除不需要的 加载一些插件">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/PTS-bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/PTS-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/filemanager.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/filemanager.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/filemanager.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/legacy/uploader.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/assets/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/src/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/backup-fast_demo-20190307152452.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/simditor/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/PTS-bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/PTS-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/filemanager.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/filemanager.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/filemanager.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/legacy/uploader.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/20190307/6d054f83270182f445a94c74ad341257.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/images/test.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/images/test.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/images/test.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/images/test.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/images/test.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/address/Address.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/address/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/address/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/address/controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/address/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/address/view/index/amap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/address/view/index/baidu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/address/view/index/tencent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/adminlte/Adminlte.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/adminlte/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/adminlte/controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/adminlte/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/adminlte/view/index/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrap/Bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrap/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrap/controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrap/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrap/view/index/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/Bootstrapcontextmenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/assets/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/assets/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/assets/bootstrap-contextmenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/assets/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/assets/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/assets/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/assets/js/bootstrap-contextmenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/assets/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/bootstrapcontextmenu/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/Command.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/application/admin/controller/Command.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/application/admin/lang/zh-cn/command.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/application/admin/model/Command.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/application/admin/validate/Command.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/application/admin/view/command/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/application/admin/view/command/detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/application/admin/view/command/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/install.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/library/Output.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/command/public/assets/js/backend/command.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/Crontab.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/application/admin/controller/general/Crontab.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/application/admin/lang/zh-cn/general/crontab.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/application/admin/view/general/crontab/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/application/admin/view/general/crontab/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/application/admin/view/general/crontab/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/application/common/model/Crontab.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/controller/Autotask.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/install.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/crontab/public/assets/js/backend/general/crontab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/database/Database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/database/application/admin/controller/general/Database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/database/application/admin/lang/zh-cn/general/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/database/application/admin/view/general/database/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/database/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/database/controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/database/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/database/library/Backup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/database/public/assets/js/backend/general/database.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/Example.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/controller/example/Baidumap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/controller/example/Bootstraptable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/controller/example/Colorbadge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/controller/example/Controllerjump.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/controller/example/Customsearch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/controller/example/Cxselect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/controller/example/Multitable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/controller/example/Relationmodel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/controller/example/Tabletemplate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/model/Area.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/view/example/baidumap/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/view/example/baidumap/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/view/example/bootstraptable/detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/view/example/bootstraptable/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/view/example/colorbadge/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/view/example/controllerjump/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/view/example/customsearch/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/view/example/cxselect/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/view/example/multitable/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/view/example/relationmodel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/application/admin/view/example/tabletemplate/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/assets/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/assets/js/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/controller/Demo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/install.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/public/assets/js/backend/example/baidumap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/public/assets/js/backend/example/bootstraptable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/public/assets/js/backend/example/colorbadge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/public/assets/js/backend/example/controllerjump.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/public/assets/js/backend/example/customsearch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/public/assets/js/backend/example/cxselect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/public/assets/js/backend/example/multitable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/public/assets/js/backend/example/relationmodel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/public/assets/js/backend/example/tabletemplate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/view/demo/demo1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/view/demo/demo2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/view/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/view/index/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/example/view/layout/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/Fileix.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/application/admin/controller/Fileix.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/application/admin/view/fileix/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/application/common/library/CommandFileSystem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/application/common/library/FileSystem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/application/common/library/PHPFileSystem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/js/backend/fileix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/filemanager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/filemanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/filemanager.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/font-license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/i18n/be.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/i18n/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/i18n/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/i18n/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/i18n/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/i18n/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/i18n/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/i18n/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/i18n/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/i18n/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/legacy/excanvas/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/legacy/excanvas/COPYING.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/legacy/excanvas/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/legacy/excanvas/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/legacy/swfobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/air.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/aircompact.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/clouds.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/compact.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/contrast.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/flat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/glamour.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/metro.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/terrace.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/touch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/skins/web.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/webix.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/webix.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/webix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/fileix/public/assets/libs/webix/codebase/webix.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/geetest/Geetest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/geetest/assets/js/geetest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/geetest/assets/js/geetest.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/geetest/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/geetest/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/geetest/controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/geetest/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/geetest/library/GeetestLib.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/log/Log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/log/application/admin/controller/general/Logs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/log/application/admin/library/Log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/log/application/admin/view/general/logs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/log/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/log/controller/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/log/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/log/public/assets/js/backend/general/logs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/Simditor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/assets/css/simditor.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/assets/js/simditor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/build/build.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/build/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/build/js.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/build/r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/src/css/mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/src/css/simditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/src/js/hotkeys.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/src/js/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/src/js/simditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/simditor/src/js/uploader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/thumb/Thumb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/thumb/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addons/thumb/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/Command.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/Fileix.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/example/Baidumap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/example/Bootstraptable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/example/Colorbadge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/example/Controllerjump.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/example/Customsearch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/example/Cxselect.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/example/Multitable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/example/Relationmodel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/example/Tabletemplate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/general/Crontab.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/general/Database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/general/Logs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/lang/zh-cn/command.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/lang/zh-cn/general/crontab.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/lang/zh-cn/general/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/library/Log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/model/Area.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/model/Command.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/validate/Command.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/command/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/command/detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/command/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/example/baidumap/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/example/baidumap/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/example/bootstraptable/detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/example/bootstraptable/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/example/colorbadge/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/example/controllerjump/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/example/customsearch/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/example/cxselect/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/example/multitable/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/example/relationmodel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/example/tabletemplate/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/fileix/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/general/crontab/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/general/crontab/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/general/crontab/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/general/database/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/view/general/logs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/common/library/CommandFileSystem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/common/library/FileSystem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/common/library/PHPFileSystem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/common/model/Crontab.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/bootstrapcontextmenu/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/bootstrapcontextmenu/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/bootstrapcontextmenu/bootstrap-contextmenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/bootstrapcontextmenu/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/bootstrapcontextmenu/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/bootstrapcontextmenu/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/bootstrapcontextmenu/js/bootstrap-contextmenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/bootstrapcontextmenu/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/example/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/example/js/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/geetest/js/geetest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/geetest/js/geetest.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/simditor/css/simditor.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/addons/simditor/js/simditor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/command.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/example/baidumap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/example/bootstraptable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/example/colorbadge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/example/controllerjump.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/example/customsearch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/example/cxselect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/example/multitable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/example/relationmodel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/example/tabletemplate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/fileix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/general/crontab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/general/database.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/backend/general/logs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/filemanager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/filemanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/filemanager.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/font-license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/i18n/be.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/i18n/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/i18n/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/i18n/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/i18n/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/i18n/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/i18n/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/i18n/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/i18n/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/i18n/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/legacy/excanvas/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/legacy/excanvas/COPYING.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/legacy/excanvas/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/legacy/excanvas/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/legacy/swfobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/air.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/aircompact.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/clouds.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/compact.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/contrast.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/flat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/glamour.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/metro.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/terrace.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/touch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/skins/web.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/webix.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/webix.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/webix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/libs/webix/codebase/webix.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/log/201903/07.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/016bd8d691fd931845d178e62560dcaf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/03fd42beff1311f2f17835114fcceab5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/1cce7145d9b4bd9ea7cf114be8bacb35.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/4381211894fcfcea16f23f97abc4636a.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/775a0c024c5fa84b299c96a8bfd261df.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/899021c36220ce169325a19a8ba9dc1a.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/b78de0eb6c04a84246cf6547beb765f4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/d33e1d8605716f9945127df93c66ad2a.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/e44f30242d8d3ff7bcd81bef0969a321.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/temp/e46a6ce37d0111d5044a15cdc2962bd5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/phpunit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/src/Image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/src/image/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/src/image/gif/Decoder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/src/image/gif/Encoder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/src/image/gif/Gif.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/CropTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/FlipTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/InfoTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/RotateTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/TestCase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/TextTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/ThumbTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/WaterTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/topthink/think-image/tests/tmp/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/controller/Category.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/controller/user/Group.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/controller/user/Rule.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/controller/user/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/lang/zh-cn/category.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/lang/zh-cn/user/group.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/lang/zh-cn/user/rule.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/lang/zh-cn/user/user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/model/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/model/UserGroup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/model/UserRule.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/category/add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/category/edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/category/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/user/group/add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/user/group/edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/user/group/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/user/rule/add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/user/rule/edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/user/rule/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/user/user/edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/view/user/user/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/controller/Ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/controller/Index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/controller/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/lang/en/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/lang/zh-cn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/lang/zh-cn/ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/lang/zh-cn/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/lang/zh-cn/user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/common/meta.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/common/script.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/common/sidenav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/index/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/layout/default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/user/changepwd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/user/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/user/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/user/profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/user/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/backend/category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/backend/user/group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/backend/user/rule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/backend/user/user.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/cache/4e/819c837d54a6ed09abc77a8560a66f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/b0cf1797e41ee7d920b6c271f91f2a2d.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/f83b09ed04adb50f46eb07f34b76ef97.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/admin.php" afterPath="$PROJECT_DIR$/public/adminXN9hlB8P5i.php" />
+    <list default="true" id="be0e3ece-25a9-42c7-a1be-f1d306b80c39" name="Default" comment="1">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/addons/testaddon/Testaddon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/addons/testaddon/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/addons/testaddon/controller/Index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/addons/testaddon/info.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/016bd8d691fd931845d178e62560dcaf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/4381211894fcfcea16f23f97abc4636a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/72cabb3fd8675088071783bed8efbe93.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/775a0c024c5fa84b299c96a8bfd261df.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/8675d8508c7abd9838d75e6211da4d5c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/94dbb08c500d6c9d2afc2f165e0a900e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/b78de0eb6c04a84246cf6547beb765f4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/d33e1d8605716f9945127df93c66ad2a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/e44f30242d8d3ff7bcd81bef0969a321.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/e46a6ce37d0111d5044a15cdc2962bd5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/temp/ea8da4cd8be6e738fedce3f62e019c4e.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/common/control.html" afterPath="$PROJECT_DIR$/application/admin/view/common/control.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/common/header.html" afterPath="$PROJECT_DIR$/application/admin/view/common/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/common/menu.html" afterPath="$PROJECT_DIR$/application/admin/view/common/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/dashboard/index.html" afterPath="$PROJECT_DIR$/application/admin/view/dashboard/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/index/login.html" afterPath="$PROJECT_DIR$/application/admin/view/index/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config.php" afterPath="$PROJECT_DIR$/application/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/extra/addons.php" afterPath="$PROJECT_DIR$/application/extra/addons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/extra/site.php" afterPath="$PROJECT_DIR$/application/extra/site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/addons.js" afterPath="$PROJECT_DIR$/public/assets/js/addons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/backend/dashboard.js" afterPath="$PROJECT_DIR$/public/assets/js/backend/dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/address/info.ini" afterPath="$PROJECT_DIR$/addons/address/info.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common.php" afterPath="$PROJECT_DIR$/application/common.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/karsonzhang/fastadmin-addons/src/addons/Service.php" afterPath="$PROJECT_DIR$/vendor/karsonzhang/fastadmin-addons/src/addons/Service.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -453,103 +37,15 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/example/config.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Wechatapp.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/api/controller/wechatapp/Wechatapp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-538">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/fileix/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/fileix/info.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/geetest/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/log/info.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Log.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/log/Log.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-412">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/simditor/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Simditor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/simditor/Simditor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/thumb/info.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fileix.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/admin/controller/Fileix.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="-2806">
+              <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+              <folding>
+                <element signature="e#48#78#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -560,6 +56,14 @@
     <findStrings>
       <find>deny_module_list</find>
       <find>log</find>
+      <find>maptype</find>
+      <find>state</find>
+      <find>enable</find>
+      <find>存在</find>
+      <find>Addon already exists</find>
+      <find>local</find>
+      <find>Addon info file was not found</find>
+      <find>指定</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -579,6 +83,38 @@
         <option value="$PROJECT_DIR$/application/config.php" />
         <option value="$PROJECT_DIR$/addons/address/config.php" />
         <option value="$PROJECT_DIR$/application/admin/controller/Fileix.php" />
+        <option value="$PROJECT_DIR$/addons/testaddon/info.ini" />
+        <option value="$PROJECT_DIR$/addons/testaddon/view/index.html" />
+        <option value="$PROJECT_DIR$/addons/testaddon/Testaddon.php" />
+        <option value="$PROJECT_DIR$/addons/testaddon/controller/Index.php" />
+        <option value="$PROJECT_DIR$/application/admin/controller/Test/index.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/backend/test/index.js" />
+        <option value="$PROJECT_DIR$/application/admin/view/test/index/index.html" />
+        <option value="$PROJECT_DIR$/public/assets/js/addons.js" />
+        <option value="$PROJECT_DIR$/application/admin/controller/Addon.php" />
+        <option value="$PROJECT_DIR$/application/common.php" />
+        <option value="$PROJECT_DIR$/addons/article/config.php" />
+        <option value="$PROJECT_DIR$/addons/testarticle/install.sql" />
+        <option value="$PROJECT_DIR$/addons/testarticle/info.ini" />
+        <option value="$PROJECT_DIR$/addons/testarticle/application/admin/controller/Testarticle.php" />
+        <option value="$PROJECT_DIR$/addons/testarticle/application/admin/model/Testarticle.php" />
+        <option value="$PROJECT_DIR$/addons/testarticle/application/admin/view/testarticle/index.html" />
+        <option value="$PROJECT_DIR$/addons/testarticle/public/assets/js/backend/testarticle.js" />
+        <option value="$PROJECT_DIR$/addons/testarticle/application/admin/model/test/Testarticle.php" />
+        <option value="$PROJECT_DIR$/addons/testarticle/application/admin/controller/test/Testarticle.php" />
+        <option value="$PROJECT_DIR$/addons/testarticle/Testarticle.php" />
+        <option value="$PROJECT_DIR$/vendor/karsonzhang/fastadmin-addons/src/addons/Service.php" />
+        <option value="$PROJECT_DIR$/application/admin/controller/test/Testarticle.php" />
+        <option value="$PROJECT_DIR$/application/admin/view/test/testarticle/index.html" />
+        <option value="$PROJECT_DIR$/application/common/library/Menu.php" />
+        <option value="$PROJECT_DIR$/extend/mikkle/tp_wechat/base/WechatBase.php" />
+        <option value="$PROJECT_DIR$/application/common/model/weixin/Member.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/backend/weixin/member.js" />
+        <option value="$PROJECT_DIR$/application/admin/controller/weixin/Member.php" />
+        <option value="$PROJECT_DIR$/application/admin/controller/test/Index.php" />
+        <option value="$PROJECT_DIR$/application/wap/controller/Weixinindex.php" />
+        <option value="$PROJECT_DIR$/application/common/model/wechatapp/User.php" />
+        <option value="$PROJECT_DIR$/application/api/controller/wechatapp/Wechatapp.php" />
       </list>
     </option>
   </component>
@@ -611,8 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -627,6 +161,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -637,6 +173,18 @@
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.selected.package.jscs" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/extend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/addons/testarticle/public/assets/js/backend/test" />
+      <recent name="$PROJECT_DIR$/addons/testarticle/application/admin/model/test" />
+      <recent name="$PROJECT_DIR$/addons/testarticle/application/admin/lang/zh-cn/test" />
+      <recent name="$PROJECT_DIR$/addons/testarticle/application/admin/controller/test" />
+      <recent name="$PROJECT_DIR$/addons/testaddon/view/index" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -690,6 +238,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -723,7 +277,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551939230678</updated>
-      <workItem from="1551939232298" duration="6154000" />
+      <workItem from="1551939232298" duration="8304000" />
+      <workItem from="1553068547624" duration="3346000" />
+      <workItem from="1554085032021" duration="12665000" />
+      <workItem from="1554277818095" duration="2413000" />
+      <workItem from="1554306278226" duration="1043000" />
+      <workItem from="1554347886946" duration="1972000" />
+      <workItem from="1554695582617" duration="361000" />
     </task>
     <task id="LOCAL-00001" summary="ide上传">
       <created>1551939779812</created>
@@ -732,37 +292,61 @@
       <option name="project" value="LOCAL" />
       <updated>1551939779812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试">
+      <created>1554085235594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554085235594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <created>1554085458169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554085458169</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6154000" />
+    <option name="totallyTimeSpent" value="30104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1876" height="1177" extended-state="6" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949513" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949513" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949513" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -770,165 +354,242 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ide上传" />
     <MESSAGE value="删除不需要的 加载一些插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除不需要的 加载一些插件" />
+    <MESSAGE value="测试" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="958" column="9" lean-forward="false" selection-start-line="958" selection-start-column="9" selection-end-line="958" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="185" column="66" lean-forward="false" selection-start-line="185" selection-start-column="52" selection-end-line="185" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/addons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/address/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/article/install.sql" />
+    <entry file="file://$PROJECT_DIR$/addons/article/Article.php" />
+    <entry file="file://$PROJECT_DIR$/addons/article/config.php" />
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/Crontab.php" />
+    <entry file="file://$PROJECT_DIR$/addons/crontab/application/admin/controller/general/Crontab.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/controller/Autotask.php" />
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/application/admin/view/testarticle/edit.html" />
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/application/admin/view/testarticle/add.html" />
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/application/admin/view/testarticle/index.html" />
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Testarticle.php" />
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/application/admin/lang/zh-cn/test/testarticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/application/admin/model/test/Testarticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/public/assets/js/backend/test/testarticle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/application/admin/controller/test/Testarticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/info.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/Testarticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/testarticle/install.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/karsonzhang/fastadmin-addons/src/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/crontab/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/crontab/info.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/crontab/install.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/lang/zh-cn/addon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="83" column="34" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Addon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1244">
+          <caret line="193" column="52" lean-forward="false" selection-start-line="193" selection-start-column="49" selection-end-line="193" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/karsonzhang/fastadmin-addons/src/addons/Service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/test/Testarticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/test/testarticle/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/library/Menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/mikkle/tp_redis/Redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/mikkle/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-            <folding />
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/User.php">
+    <entry file="file://$PROJECT_DIR$/addons/crontab/Crontab.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Ajax.php">
+    <entry file="file://$PROJECT_DIR$/application/common/model/weixin/Config.php" />
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/weixin/config.js" />
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/weixin/Member.php" />
+    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/weixin/member.js" />
+    <entry file="file://$PROJECT_DIR$/application/common/model/weixin/Member.php" />
+    <entry file="file://$PROJECT_DIR$/extend/mikkle/tp_wechat/base/WechatBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.sample">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/think">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/index/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="81" column="117" lean-forward="false" selection-start-line="81" selection-start-column="110" selection-end-line="81" selection-end-column="117" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/layout/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/common/control.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="163" column="98" lean-forward="false" selection-start-line="163" selection-start-column="98" selection-end-line="163" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/common/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/adminXN9hlB8P5i.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/common/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/model/UserGroup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/model/UserRule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/backend/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="123">
+          <caret line="80" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="184" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -940,7 +601,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/common.php">
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/test/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/wap/controller/Weixinindex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/wechatapp/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -948,165 +624,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Command.php">
+    <entry file="file://$PROJECT_DIR$/application/common/model/wechatapp/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/wechatapp/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding>
-            <marker date="1551941892574" expanded="true" signature="1179:1325" ph="SELECT * FRO... columns" />
+            <marker date="1554695737758" expanded="true" signature="341:365" ph="..." />
+            <marker date="1554695737758" expanded="true" signature="402:493" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/dashboard/index.html">
+    <entry file="file://$PROJECT_DIR$/application/api/controller/wechatapp/Wechatapp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/library/Log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3394">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1819">
-          <caret line="164" column="27" lean-forward="false" selection-start-line="164" selection-start-column="27" selection-end-line="164" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/bootstrap/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/address/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/bootstrapcontextmenu/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/command/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/crontab/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/database/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/example/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/fileix/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/fileix/info.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/geetest/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/log/info.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/log/Log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-412">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/simditor/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/simditor/Simditor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/thumb/info.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Fileix.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="-2806">
+          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="e#48#78#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

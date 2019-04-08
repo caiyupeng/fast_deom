@@ -173,6 +173,7 @@ if (!function_exists('copydirs')) {
             mkdir($dest, 0755, true);
         }
         foreach (
+//            迭代获取当前路径下所有的目录和文件
             $iterator = new RecursiveIteratorIterator(
                 new RecursiveDirectoryIterator($source, RecursiveDirectoryIterator::SKIP_DOTS), RecursiveIteratorIterator::SELF_FIRST) as $item
         ) {
