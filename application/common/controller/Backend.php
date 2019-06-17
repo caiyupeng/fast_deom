@@ -122,6 +122,12 @@ class Backend extends Controller
         // 定义是否AJAX请求
         !defined('IS_AJAX') && define('IS_AJAX', $this->request->isAjax());
 
+        if(!empty($_SERVER['HTTP_REFERER'])){
+            if(!(strpos($_SERVER['HTTP_REFERER'],'fastadmindemo.com') !== false)){
+                $this->error(__('You have no permission'), '');
+            }
+        }
+
         $this->auth = Auth::instance();
 
         // 设置当前请求的URI
@@ -171,8 +177,8 @@ class Backend extends Controller
         }
 
         // 语言检测
-        $lang = strip_tags($this->request->langset());
 
+        $lang = strip_tags($this->request->langset());
         $site = Config::get("site");
 
         $upload = \app\common\model\Config::upload();
@@ -189,7 +195,7 @@ class Backend extends Controller
             'actionname'     => $actionname,
             'jsname'         => 'backend/' . str_replace('.', '/', $controllername),
             'moduleurl'      => rtrim(url("/{$modulename}", '', false), '/'),
-            'language'       => $lang,
+            'language'       => 'zh-cn',
             'fastadmin'      => Config::get('fastadmin'),
             'referer'        => Session::get("referer")
         ];
@@ -315,7 +321,7 @@ class Backend extends Controller
                 case 'NOT BETWEEN':
                     $arr = array_slice(explode(',', $v), 0, 2);
                     if (stripos($v, ',') === false || !array_filter($arr))
-                        continue 2;
+                        continue;
                     //当出现一边为空时改变操作符
                     if ($arr[0] === '') {
                         $sym = $sym == 'BETWEEN' ? '<=' : '>';
@@ -331,7 +337,7 @@ class Backend extends Controller
                     $v = str_replace(' - ', ',', $v);
                     $arr = array_slice(explode(',', $v), 0, 2);
                     if (stripos($v, ',') === false || !array_filter($arr))
-                        continue 2;
+                        continue;
                     //当出现一边为空时改变操作符
                     if ($arr[0] === '') {
                         $sym = $sym == 'RANGE' ? '<=' : '>';

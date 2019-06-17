@@ -9,6 +9,8 @@ use think\Cache;
 use think\Config;
 use think\Db;
 use think\Lang;
+use Endroid\QrCode\QrCode;
+use think\Response;
 
 /**
  * Ajax异步请求接口
@@ -35,6 +37,10 @@ class Ajax extends Backend
     public function lang()
     {
         header('Content-Type: application/javascript');
+        $callback = input("callback");
+        if($callback!='define'){
+            return '{}';
+        }
         $controllername = input("controllername");
         //默认只加载了控制器对应的语言名，你还根据控制器名来加载额外的语言包
         $this->loadlang($controllername);
@@ -146,7 +152,7 @@ class Ajax extends Backend
         //操作的数据表
         $table = $this->request->post("table");
         //排序的方式
-        $orderway = $this->request->post("orderway", "", 'strtolower');
+        $orderway = $this->request->post("orderway", 'strtolower');
         $orderway = $orderway == 'asc' ? 'ASC' : 'DESC';
         $sour = $weighdata = [];
         $ids = explode(',', $ids);
@@ -198,17 +204,16 @@ class Ajax extends Backend
     {
         $type = $this->request->request("type");
         switch ($type) {
-            case 'all':
-            case 'content':
+            case 'content' || 'all':
                 rmdirs(CACHE_PATH, false);
                 Cache::clear();
                 if ($type == 'content')
                     break;
-            case 'template':
+            case 'template' || 'all':
                 rmdirs(TEMP_PATH, false);
                 if ($type == 'template')
                     break;
-            case 'addons':
+            case 'addons' || 'all':
                 Service::refresh();
                 if ($type == 'addons')
                     break;
@@ -265,4 +270,111 @@ class Ajax extends Backend
         $this->success('', null, $provincelist);
     }
 
+    public function build()
+    {
+        $text = $this->request->get('key');
+        $name = $this->request->get('name');
+        $size = 250;
+        $padding = 15;
+        $errorcorrection = 'medium';
+        $foreground = '#ffffff';
+        $background = '#000000';
+        $logo = '';
+        $logosize = '';
+        $label = '';
+        $labelfontsize = '';
+        $labelhalign = '';
+        $labelvalign = '';
+
+        // 前景色
+        list($r, $g, $b) = sscanf($foreground, "#%02x%02x%02x");
+        $foregroundcolor = ['r' => $r, 'g' => $g, 'b' => $b];
+
+        // 背景色
+        list($r, $g, $b) = sscanf($background, "#%02x%02x%02x");
+        $backgroundcolor = ['r' => $r, 'g' => $g, 'b' => $b];
+
+        $qrCode = new QrCode();
+        $qrCode
+            ->setText($text)
+            ->setSize($size)
+            ->setPadding($padding)
+            ->setErrorCorrection($errorcorrection)
+            ->setForegroundColor($foregroundcolor)
+            ->setBackgroundColor($backgroundcolor)
+            ->setLogoSize($logosize)
+            ->setLabelFontPath(ROOT_PATH . 'public/assets/fonts/fzltxh.ttf')
+            ->setLabel($label)
+            ->setLabelFontSize($labelfontsize)
+            ->setLabelHalign($labelhalign)
+            ->setLabelValign($labelvalign)
+            ->setImageType(QrCode::IMAGE_TYPE_PNG);
+        /*if ($logo) {
+            $qrCode->setLogo(ROOT_PATH . 'public/assets/img/qrcode.png');
+        }*/
+        //也可以直接使用render方法输出结果
+//        $qrCode->render('二维码');
+        return new Response($qrCode->get('二维码'), 200, ['Content-Type' => $qrCode->getContentType()]);
+    }
+
+    public function save()
+    {
+        $text = $this->request->get('key');
+        if (empty($text)) {
+            $this->error('非法请求！');
+        }
+        $name = $this->request->get('name');
+        if (empty($name)) {
+            $this->error('非法请求！');
+        }
+        $size = 430;
+        $padding = 15;
+        $errorcorrection = 'quartile';
+        $foreground = '#ffffff';
+        $background = '#000000';
+        $logo = '';
+        $logosize = '';
+        $label = '';
+        $labelfontsize = '';
+        $labelhalign = '';
+        $labelvalign = '';
+
+        // 前景色
+        list($r, $g, $b) = sscanf($foreground, "#%02x%02x%02x");
+        $foregroundcolor = ['r' => $r, 'g' => $g, 'b' => $b];
+
+        // 背景色
+        list($r, $g, $b) = sscanf($background, "#%02x%02x%02x");
+        $backgroundcolor = ['r' => $r, 'g' => $g, 'b' => $b];
+
+        $qrCode = new QrCode();
+        $qrCode
+            ->setText($text)
+            ->setSize($size)
+            ->setPadding($padding)
+            ->setErrorCorrection($errorcorrection)
+            ->setForegroundColor($foregroundcolor)
+            ->setBackgroundColor($backgroundcolor)
+            ->setLogoSize($logosize)
+            ->setLabelFontPath(ROOT_PATH . 'public/assets/fonts/fzltxh.ttf')
+            ->setLabel($label)
+            ->setLabelFontSize($labelfontsize)
+            ->setLabelHalign($labelhalign)
+            ->setLabelValign($labelvalign)
+            ->setImageType(QrCode::IMAGE_TYPE_PNG);
+        /*if ($logo) {
+            $qrCode->setLogo(ROOT_PATH . 'public/assets/img/qrcode.png');
+        }*/
+        //也可以直接使用render方法输出结果
+        $qr = $qrCode->render();
+//        dump(filesize($qr));die;
+        header("Cache-Control: public");
+//        header("Content-Description: File Transfer");
+        header('Content-disposition: attachment; filename='. $name .'.png'); //文件名
+        header("Content-Type: image/png");
+        header("Content-Transfer-Encoding: binary");
+//        header('Content-Length: '. filesize($qr));
+        @readfile($qr);
+        exit();
+    }
 }

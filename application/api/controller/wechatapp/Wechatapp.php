@@ -4,6 +4,7 @@ namespace app\api\controller\wechatapp;
 
 use app\common\controller\Api;
 use app\common\model\wechatapp\Config;
+use app\common\model\wechatapp\Formidlist;
 use app\common\model\wechatapp\User;
 use think\Cache;
 use think\Exception;
@@ -43,7 +44,7 @@ class Wechatapp extends Api
                 throw new Exception('参数缺失', 8);
             }
 
-            //获取公众号配置
+            //获取小程序配置
             $configModel = Config::get([ 'id' => 1 ], [], 60);
             $APPID       = $configModel['appid'];
             $AppSecret   = $configModel['appsecret'];
@@ -94,7 +95,6 @@ class Wechatapp extends Api
             $this->setCacheByToken($token, $tokenUserinfo);
 
             //用户信息
-
             //获取微信信息
             $wechatUserData = $wechatUserModel->visible([
                 'nickname',
@@ -234,5 +234,32 @@ class Wechatapp extends Api
         }
     }
 
+
+    /**
+     * User: caiyupeng
+     * Date: 2018/11/23 4:05 PM
+     * 存入表单id
+     */
+    public function setFormId()
+    {
+        $id     = $this->request->request('id');
+        $openid = $this->openid;
+        if ( empty($id) ) {
+            $this->success('请传入formid',[],200);
+        }
+        if ( !$openid ) {
+            $this->success('请传入openid',[],200);
+        }
+        //判断是否是数字
+        $Formidlist         = new Formidlist();
+        $Formidlist->formid = $id;
+        $Formidlist->openid = $openid;
+        $res                = $Formidlist->save();
+        if ( $res !== false ) {
+            $this->success('成功',[],200);
+        } else {
+            $this->success('失败',[],200);
+        }
+    }
 
 }

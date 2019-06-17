@@ -62,11 +62,14 @@ class Index extends Backend
         if ($this->request->isPost()) {
             $username = $this->request->post('username');
             $password = $this->request->post('password');
+            //加上非对称加密
+            $password = $this->chekcpws($password);
+
             $keeplogin = $this->request->post('keeplogin');
             $token = $this->request->post('__token__');
             $rule = [
                 'username'  => 'require|length:3,30',
-                'password'  => 'require|length:3,30',
+                'password'  => 'require|length:3,33',
                 '__token__' => 'token',
             ];
             $data = [
@@ -78,8 +81,11 @@ class Index extends Backend
                 $rule['captcha'] = 'require|captcha';
                 $data['captcha'] = $this->request->post('captcha');
             }
+
+
             $validate = new Validate($rule, [], ['username' => __('Username'), 'password' => __('Password'), 'captcha' => __('Captcha')]);
             $result = $validate->check($data);
+
             if (!$result) {
                 $this->error($validate->getError(), $url, ['token' => $this->request->token()]);
             }
@@ -115,6 +121,32 @@ class Index extends Backend
         $this->auth->logout();
         Hook::listen("admin_logout_after", $this->request);
         $this->success(__('Logout successful'), 'index/login');
+    }
+
+
+    public function chekcpws($password){
+        //私钥
+        $private_key = "-----BEGIN RSA PRIVATE KEY-----
+MIICXgIBAAKBgQDXpZ39hjXafD42qq1Np/rG03mlURyo/gyWnLJAXSxSKUtndbNK
+rqQYdzovReQdsCB1f5/yQ7kcl30J2pNDdBO5EG0+JjynZJFFSzKlFmHJ7av1NZVt
+2cAnfQnUnWLi7PfR2XG0279SBiee+gb+FJMtrGXa1NUMoe3cLRqBXY3byQIDAQAB
+AoGBAIGv2zzdmsODlpKfwEuEax9pjK2sAxVqez2UjOqCXiYnKW7V7PZL4unHwhkt
+6gskodCn6RP0QH3+aLclWQzm4Ph/UhWeN1HPdxTW4b0joe9/2lnONoi4l5bxs6gQ
+KLxB44vr1ejo/2BkwtHQniRE/vEFLhTEvjGQq6zCGQcVXgEBAkEA7ozMoR9i8rkY
+n+GWUKygvngOwVKMuyHTVQ+GHH/Q9ZxZlrU7kFMVBbjeXY6SNrVHfpbm80SBZrkq
+ct2HiHB9qQJBAOdr7J+xjilWf/3MA5JrjhjXH5BWmyhfVxPBAaiWct2oFvv721Xn
+hf0bCyEQ7PklUKfpyqm31qs1pXJCKhwQASECQHlMBtD20K1zCN5jKreiz6mKCpaq
+jvyoWnkqB5t+MpZxBezoAn2EgXADbK5NzHMdAlmQCacw8kt1Y+w8UKpD6OECQQDU
+1zLasN+R72dqEd/bI6ad/ASgqLatC/q3RVT0K+LbMARrnvjcakKWRfAXaky43HPw
+6xoku9rovj869dVq1+FhAkEA4cOf6zI1jBajvhhKzfTC+/ib2xmOFYgEp23K2a01
+dXbZJOJEo/ckejPWC609QTmOC+rexRXV5JrX9gN6gsER1w==
+-----END RSA PRIVATE KEY-----";
+
+        $hex_encrypt_data = trim($password); //十六进制数据
+        $encrypt_data = pack("H*", $hex_encrypt_data);//对十六进制数据进行转换
+        openssl_private_decrypt($encrypt_data, $decrypt_data, $private_key);
+
+        return $decrypt_data;
     }
 
 }

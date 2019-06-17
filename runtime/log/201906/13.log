@@ -1,0 +1,29 @@
+---------------------------------------------------------------
+[ 2019-06-13T12:01:17+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：0.418951s] [吞吐率：2.39req/s] [内存消耗：4,243.76kb] [文件加载：86]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5d01ca8cece14.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5d01ca8cece14.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:237]
+---------------------------------------------------------------
+[ 2019-06-13T12:02:01+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：0.654106s] [吞吐率：1.53req/s] [内存消耗：4,294.40kb] [文件加载：91]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5d01cab92c76e.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]
+---------------------------------------------------------------
+[ 2019-06-13T14:10:55+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：0.770651s] [吞吐率：1.30req/s] [内存消耗：4,302.88kb] [文件加载：91]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5d01e8ef62945.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]
+---------------------------------------------------------------
+[ 2019-06-13T14:27:05+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：0.914331s] [吞吐率：1.09req/s] [内存消耗：4,302.92kb] [文件加载：91]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5d01ecb91e6ed.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]
+---------------------------------------------------------------
+[ 2019-06-13T14:27:11+08:00 ] 10.211.55.2 GET fastadmindemo.com/adminXN9hlB8P5i.php/article/category/index?sort=weigh&order=asc&_=1560407230164
+[运行时间：0.359569s] [吞吐率：2.78req/s] [内存消耗：4,107.07kb] [文件加载：84]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fast_demo.my_article_category' doesn't exist[Z:\Applications\MAMP\htdocs\fastadmindemo\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-06-13T14:27:12+08:00 ] 10.211.55.2 GET fastadmindemo.com/adminXN9hlB8P5i.php/article/category/add?dialog=1
+[运行时间：0.464491s] [吞吐率：2.15req/s] [内存消耗：4,106.98kb] [文件加载：84]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fast_demo.my_article_category' doesn't exist[Z:\Applications\MAMP\htdocs\fastadmindemo\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-06-13T14:29:10+08:00 ] 10.211.55.2 POST fastadmindemo.com/adminXN9hlB8P5i.php/addon/local
+[运行时间：0.596874s] [吞吐率：1.68req/s] [内存消耗：4,302.88kb] [文件加载：91]
+[ error ] [2]unlink(Z:\Applications\MAMP\htdocs\fastadmindemo\runtime\addons\5d01ed3636828.zip): Resource temporarily unavailable[Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\controller\Addon.php:193]

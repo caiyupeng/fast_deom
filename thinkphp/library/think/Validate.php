@@ -1252,6 +1252,7 @@ class Validate
 
         // 令牌验证
         if (isset($data[$rule]) && Session::get($rule) === $data[$rule]) {
+
             // 防止重复提交
             Session::delete($rule); // 验证完成销毁session
             return true;

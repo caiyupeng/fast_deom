@@ -52,13 +52,13 @@ class Api
 
     /**
      * 权限Auth
-     * @var Auth 
+     * @var Auth
      */
     protected $auth = null;
 
     /**
      * 默认响应输出类型,支持json/xml
-     * @var string 
+     * @var string
      */
     protected $responseType = 'json';
 

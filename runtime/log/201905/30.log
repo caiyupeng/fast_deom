@@ -1,0 +1,4 @@
+---------------------------------------------------------------
+[ 2019-05-30T11:13:04+08:00 ] 10.211.55.2 GET fastadmindemo.com/adminXN9hlB8P5i.php/wechatapp/config?ref=addtabs
+[运行时间：0.260502s] [吞吐率：3.84req/s] [内存消耗：3,492.33kb] [文件加载：74]
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'fast_demo1'[Z:\Applications\MAMP\htdocs\fastadmindemo\thinkphp\library\think\db\Connection.php:295]

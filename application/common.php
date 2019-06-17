@@ -2,69 +2,82 @@
 
 // 公共助手函数
 
-if (!function_exists('__')) {
+if ( !function_exists('__') ) {
 
     /**
      * 获取语言变量值
+     *
      * @param string $name 语言变量名
-     * @param array $vars 动态变量值
+     * @param array  $vars 动态变量值
      * @param string $lang 语言
+     *
      * @return mixed
      */
     function __($name, $vars = [], $lang = '')
     {
-        if (is_numeric($name) || !$name)
+        if ( is_numeric($name) || !$name ) {
             return $name;
-        if (!is_array($vars)) {
+        }
+        if ( !is_array($vars) ) {
             $vars = func_get_args();
             array_shift($vars);
             $lang = '';
         }
+
         return \think\Lang::get($name, $vars, $lang);
     }
 
 }
 
-if (!function_exists('format_bytes')) {
+if ( !function_exists('format_bytes') ) {
 
     /**
      * 将字节转换为可读文本
-     * @param int $size 大小
+     *
+     * @param int    $size 大小
      * @param string $delimiter 分隔符
+     *
      * @return string
      */
     function format_bytes($size, $delimiter = '')
     {
-        $units = array('B', 'KB', 'MB', 'GB', 'TB', 'PB');
-        for ($i = 0; $size >= 1024 && $i < 6; $i++)
+        $units = [ 'B', 'KB', 'MB', 'GB', 'TB', 'PB' ];
+        for ( $i = 0; $size >= 1024 && $i < 6; $i++ ) {
             $size /= 1024;
+        }
+
         return round($size, 2) . $delimiter . $units[$i];
     }
 
 }
 
-if (!function_exists('datetime')) {
+if ( !function_exists('datetime') ) {
 
     /**
      * 将时间戳转换为日期时间
-     * @param int $time 时间戳
+     *
+     * @param int    $time 时间戳
      * @param string $format 日期时间格式
+     *
      * @return string
      */
     function datetime($time, $format = 'Y-m-d H:i:s')
     {
         $time = is_numeric($time) ? $time : strtotime($time);
+
         return date($format, $time);
     }
 
 }
 
-if (!function_exists('human_date')) {
+if ( !function_exists('human_date') ) {
 
     /**
      * 获取语义化时间
+     *
      * @param int $time 时间
      * @param int $local 本地时间
+     *
      * @return string
      */
     function human_date($time, $local = null)
@@ -74,112 +87,126 @@ if (!function_exists('human_date')) {
 
 }
 
-if (!function_exists('cdnurl')) {
+if ( !function_exists('cdnurl') ) {
 
     /**
      * 获取上传资源的CDN的地址
-     * @param string $url 资源相对地址
+     *
+     * @param string  $url 资源相对地址
      * @param boolean $domain 是否显示域名 或者直接传入域名
+     *
      * @return string
      */
     function cdnurl($url, $domain = false)
     {
         $url = preg_match("/^https?:\/\/(.*)/i", $url) ? $url : \think\Config::get('upload.cdnurl') . $url;
-        if ($domain && !preg_match("/^(http:\/\/|https:\/\/)/i", $url)) {
-            if (is_bool($domain)) {
+        if ( $domain && !preg_match("/^(http:\/\/|https:\/\/)/i", $url) ) {
+            if ( is_bool($domain) ) {
                 $public = \think\Config::get('view_replace_str.__PUBLIC__');
-                $url = rtrim($public, '/') . $url;
-                if (!preg_match("/^(http:\/\/|https:\/\/)/i", $url)) {
+                $url    = rtrim($public, '/') . $url;
+                if ( !preg_match("/^(http:\/\/|https:\/\/)/i", $url) ) {
                     $url = request()->domain() . $url;
                 }
             } else {
                 $url = $domain . $url;
             }
         }
+
         return $url;
     }
 
 }
 
 
-if (!function_exists('is_really_writable')) {
+if ( !function_exists('is_really_writable') ) {
 
     /**
      * 判断文件或文件夹是否可写
+     *
      * @param    string $file 文件或目录
+     *
      * @return    bool
      */
     function is_really_writable($file)
     {
-        if (DIRECTORY_SEPARATOR === '/') {
+        if ( DIRECTORY_SEPARATOR === '/' ) {
             return is_writable($file);
         }
-        if (is_dir($file)) {
+        if ( is_dir($file) ) {
             $file = rtrim($file, '/') . '/' . md5(mt_rand());
-            if (($fp = @fopen($file, 'ab')) === FALSE) {
-                return FALSE;
+            if ( ($fp = @fopen($file, 'ab')) === false ) {
+                return false;
             }
             fclose($fp);
             @chmod($file, 0777);
             @unlink($file);
-            return TRUE;
-        } elseif (!is_file($file) OR ($fp = @fopen($file, 'ab')) === FALSE) {
-            return FALSE;
+
+            return true;
+        } elseif ( !is_file($file) OR ($fp = @fopen($file, 'ab')) === false ) {
+            return false;
         }
         fclose($fp);
-        return TRUE;
-    }
 
-}
-
-if (!function_exists('rmdirs')) {
-
-    /**
-     * 删除文件夹
-     * @param string $dirname 目录
-     * @param bool $withself 是否删除自身
-     * @return boolean
-     */
-    function rmdirs($dirname, $withself = true)
-    {
-        if (!is_dir($dirname))
-            return false;
-        $files = new RecursiveIteratorIterator(
-            new RecursiveDirectoryIterator($dirname, RecursiveDirectoryIterator::SKIP_DOTS), RecursiveIteratorIterator::CHILD_FIRST
-        );
-
-        foreach ($files as $fileinfo) {
-            $todo = ($fileinfo->isDir() ? 'rmdir' : 'unlink');
-            $todo($fileinfo->getRealPath());
-        }
-        if ($withself) {
-            @rmdir($dirname);
-        }
         return true;
     }
 
 }
 
-if (!function_exists('copydirs')) {
+if ( !function_exists('rmdirs') ) {
+
+    /**
+     * 删除文件夹
+     *
+     * @param string $dirname 目录
+     * @param bool   $withself 是否删除自身
+     *
+     * @return boolean
+     */
+    function rmdirs($dirname, $withself = true)
+    {
+        if ( !is_dir($dirname) ) {
+            return false;
+        }
+        $files = new RecursiveIteratorIterator(
+            new RecursiveDirectoryIterator($dirname, RecursiveDirectoryIterator::SKIP_DOTS),
+            RecursiveIteratorIterator::CHILD_FIRST
+        );
+
+        foreach ( $files as $fileinfo ) {
+            $todo = ($fileinfo->isDir() ? 'rmdir' : 'unlink');
+            $todo($fileinfo->getRealPath());
+        }
+        if ( $withself ) {
+            @rmdir($dirname);
+        }
+
+        return true;
+    }
+
+}
+
+if ( !function_exists('copydirs') ) {
 
     /**
      * 复制文件夹
+     *
      * @param string $source 源文件夹
      * @param string $dest 目标文件夹
      */
     function copydirs($source, $dest)
     {
-        if (!is_dir($dest)) {
+        if ( !is_dir($dest) ) {
             mkdir($dest, 0755, true);
         }
         foreach (
 //            迭代获取当前路径下所有的目录和文件
             $iterator = new RecursiveIteratorIterator(
-                new RecursiveDirectoryIterator($source, RecursiveDirectoryIterator::SKIP_DOTS), RecursiveIteratorIterator::SELF_FIRST) as $item
+                new RecursiveDirectoryIterator($source, RecursiveDirectoryIterator::SKIP_DOTS),
+                RecursiveIteratorIterator::SELF_FIRST) as $item
         ) {
-            if ($item->isDir()) {
+            if ( $item->isDir() ) {
                 $sontDir = $dest . DS . $iterator->getSubPathName();
-                if (!is_dir($sontDir)) {
+                if ( !is_dir($sontDir) ) {
                     mkdir($sontDir, 0755, true);
                 }
             } else {
@@ -190,7 +217,7 @@ if (!function_exists('copydirs')) {
 
 }
 
-if (!function_exists('mb_ucfirst')) {
+if ( !function_exists('mb_ucfirst') ) {
 
     function mb_ucfirst($string)
     {
@@ -199,105 +226,225 @@ if (!function_exists('mb_ucfirst')) {
 
 }
 
-if (!function_exists('addtion')) {
+if ( !function_exists('addtion') ) {
 
     /**
      * 附加关联字段数据
+     *
      * @param array $items 数据列表
      * @param mixed $fields 渲染的来源字段
+     *
      * @return array
      */
     function addtion($items, $fields)
     {
-        if (!$items || !$fields)
+        if ( !$items || !$fields ) {
             return $items;
+        }
         $fieldsArr = [];
-        if (!is_array($fields)) {
+        if ( !is_array($fields) ) {
             $arr = explode(',', $fields);
-            foreach ($arr as $k => $v) {
-                $fieldsArr[$v] = ['field' => $v];
+            foreach ( $arr as $k => $v ) {
+                $fieldsArr[$v] = [ 'field' => $v ];
             }
         } else {
-            foreach ($fields as $k => $v) {
-                if (is_array($v)) {
+            foreach ( $fields as $k => $v ) {
+                if ( is_array($v) ) {
                     $v['field'] = isset($v['field']) ? $v['field'] : $k;
                 } else {
-                    $v = ['field' => $v];
+                    $v = [ 'field' => $v ];
                 }
                 $fieldsArr[$v['field']] = $v;
             }
         }
-        foreach ($fieldsArr as $k => &$v) {
-            $v = is_array($v) ? $v : ['field' => $v];
-            $v['display'] = isset($v['display']) ? $v['display'] : str_replace(['_ids', '_id'], ['_names', '_name'], $v['field']);
+        foreach ( $fieldsArr as $k => &$v ) {
+            $v            = is_array($v) ? $v : [ 'field' => $v ];
+            $v['display'] = isset($v['display']) ? $v['display'] : str_replace([ '_ids', '_id' ], [ '_names', '_name' ],
+                $v['field']);
             $v['primary'] = isset($v['primary']) ? $v['primary'] : '';
-            $v['column'] = isset($v['column']) ? $v['column'] : 'name';
-            $v['model'] = isset($v['model']) ? $v['model'] : '';
-            $v['table'] = isset($v['table']) ? $v['table'] : '';
-            $v['name'] = isset($v['name']) ? $v['name'] : str_replace(['_ids', '_id'], '', $v['field']);
+            $v['column']  = isset($v['column']) ? $v['column'] : 'name';
+            $v['model']   = isset($v['model']) ? $v['model'] : '';
+            $v['table']   = isset($v['table']) ? $v['table'] : '';
+            $v['name']    = isset($v['name']) ? $v['name'] : str_replace([ '_ids', '_id' ], '', $v['field']);
         }
         unset($v);
-        $ids = [];
+        $ids    = [];
         $fields = array_keys($fieldsArr);
-        foreach ($items as $k => $v) {
-            foreach ($fields as $m => $n) {
-                if (isset($v[$n])) {
+        foreach ( $items as $k => $v ) {
+            foreach ( $fields as $m => $n ) {
+                if ( isset($v[$n]) ) {
                     $ids[$n] = array_merge(isset($ids[$n]) && is_array($ids[$n]) ? $ids[$n] : [], explode(',', $v[$n]));
                 }
             }
         }
         $result = [];
-        foreach ($fieldsArr as $k => $v) {
-            if ($v['model']) {
+        foreach ( $fieldsArr as $k => $v ) {
+            if ( $v['model'] ) {
                 $model = new $v['model'];
             } else {
                 $model = $v['name'] ? \think\Db::name($v['name']) : \think\Db::table($v['table']);
             }
-            $primary = $v['primary'] ? $v['primary'] : $model->getPk();
-            $result[$v['field']] = $model->where($primary, 'in', $ids[$v['field']])->column("{$primary},{$v['column']}");
+            $primary             = $v['primary'] ? $v['primary'] : $model->getPk();
+            $result[$v['field']] = $model->where($primary, 'in',
+                $ids[$v['field']])->column("{$primary},{$v['column']}");
         }
 
-        foreach ($items as $k => &$v) {
-            foreach ($fields as $m => $n) {
-                if (isset($v[$n])) {
+        foreach ( $items as $k => &$v ) {
+            foreach ( $fields as $m => $n ) {
+                if ( isset($v[$n]) ) {
                     $curr = array_flip(explode(',', $v[$n]));
 
                     $v[$fieldsArr[$n]['display']] = implode(',', array_intersect_key($result[$n], $curr));
                 }
             }
         }
+
         return $items;
     }
 
 }
 
-if (!function_exists('var_export_short')) {
+if ( !function_exists('var_export_short') ) {
 
     /**
      * 返回打印数组结构
+     *
      * @param string $var 数组
      * @param string $indent 缩进字符
+     *
      * @return string
      */
     function var_export_short($var, $indent = "")
     {
-        switch (gettype($var)) {
+        switch ( gettype($var) ) {
             case "string":
                 return '"' . addcslashes($var, "\\\$\"\r\n\t\v\f") . '"';
             case "array":
                 $indexed = array_keys($var) === range(0, count($var) - 1);
-                $r = [];
-                foreach ($var as $key => $value) {
+                $r       = [];
+                foreach ( $var as $key => $value ) {
                     $r[] = "$indent    "
                         . ($indexed ? "" : var_export_short($key) . " => ")
                         . var_export_short($value, "$indent    ");
                 }
+
                 return "[\n" . implode(",\n", $r) . "\n" . $indent . "]";
             case "boolean":
                 return $var ? "TRUE" : "FALSE";
             default:
-                return var_export($var, TRUE);
+                return var_export($var, true);
         }
     }
 
+}
+
+if ( !function_exists('isHttps') ) {
+    //PHP判断当前协议是否为HTTPS
+    function isHttps()
+    {
+        if ( !empty($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) !== 'off' ) {
+            return true;
+        } elseif ( isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https' ) {
+            return true;
+        } elseif ( !empty($_SERVER['HTTP_FRONT_END_HTTPS']) && strtolower($_SERVER['HTTP_FRONT_END_HTTPS']) !== 'off' ) {
+            return true;
+        }
+
+        return false;
+    }
+}
+/**
+ * 检查密码复杂度
+ */
+if ( !function_exists('checkPassword') ) {
+    function checkPassword($pwd)
+    {
+        $pwd = trim($pwd);
+        if ( strlen($pwd) < 8 ) {
+            return '密码必须大于8字符';
+        }
+        if ( !preg_match("/^(?![a-zA-Z]+$)(?![A-Z0-9]+$)(?![A-Z\W_]+$)(?![a-z0-9]+$)(?![a-z\W_]+$)(?![0-9\W_]+$)[a-zA-Z0-9\W_]{8,}$/",
+            $pwd)
+        ) { //必须含有特殊字符
+            return '密码必须含大、小写字母、数字及特殊字符中的三种类型以上';
+        }
+
+        return true;
+    }
+}
+if ( !function_exists('contenttohtml') ) {
+    //返回当前URL
+    function contenttohtml($content)
+    {
+        $content = html_entity_decode((htmlspecialchars_decode(htmlspecialchars_decode(html_entity_decode($content)))));
+        $content = htmlpurifier($content);
+
+        return $content;
+    }
+}
+
+if ( !function_exists('htmlpurifier') ) {
+    //返回当前URL
+    function htmlpurifier($content)
+    {
+        require_once VENDOR_PATH . '/htmlpurifier/HTMLPurifier.auto.php';
+        $_clean_xss_config = \HTMLPurifier_Config::createDefault();
+        $_clean_xss_config->set('Core.Encoding', 'UTF-8');
+// 设置保留的标签
+        $_clean_xss_config->set('HTML.Allowed',
+            'div,b,strong,i,em,a[href|title],ul,ol,li,p[style],br,span[style],img[width|height|alt|src]');
+        $_clean_xss_config->set('CSS.AllowedProperties',
+            'font,font-size,font-weight,font-style,font-family,text-decoration,padding-left,color,background-color,text-align');
+        $_clean_xss_config->set('HTML.TargetBlank', true);
+        $_clean_xss_obj = new \HTMLPurifier($_clean_xss_config);
+// 执行过滤
+        $data = $_clean_xss_obj->purify($content);
+
+        return $data;
+    }
+}
+
+
+/**
+ * @param $phone
+ *
+ * @return bool
+ * 判断是否是手机号码
+ */
+if ( !function_exists('isPhone') ) {
+    function isPhone($phone)
+    {
+        if ( preg_match("/^1[23456789]{1}\d{9}$/", $phone) ) {
+            if ( preg_match('/(\d)\1{3}/', $phone) ) {
+                return false;
+            }
+            if ( preg_match('/((?:0(?=1)|1(?=2)|2(?=3)|3(?=4)|4(?=5)|5(?=6)|6(?=7)|7(?=8)|8(?=9)|9(?=0)){3}\d)/',
+                $phone) ) {
+                return false;
+            }
+
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+}
+
+/**
+ * @param $phone
+ *
+ * @return bool
+ * 判断是否是身份证号码
+ */
+if ( !function_exists('isIdcard') ) {
+    function isIdcard($idcard)
+    {
+        if ( preg_match("/^\d{6}(19|20)\d{2}(0[1-9]|1[012])(0[1-9]|[12]\d|3[01])\d{3}(\d|X)$|^\d{6}\d{2}(0[1-9]|1[012])(0[1-9]|[12]\d|3[01])\d{3}(\d|X|x)?$/",
+            $idcard) ) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

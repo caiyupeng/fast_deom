@@ -1,0 +1,4 @@
+---------------------------------------------------------------
+[ 2019-05-16T18:22:51+08:00 ] 10.211.55.2 GET fastadmindemo.com/adminXN9hlB8P5i.php/mqtttest/index
+[运行时间：0.253121s] [吞吐率：3.95req/s] [内存消耗：2,424.89kb] [文件加载：64]
+[ error ] [0]模板文件不存在:Z:\Applications\MAMP\htdocs\fastadmindemo\public/../application/admin\view\mqtttest\index.html[Z:\Applications\MAMP\htdocs\fastadmindemo\thinkphp\library\think\view\driver\Think.php:82]

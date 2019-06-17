@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:102:"Z:\Applications\MAMP\htdocs\fastadmindemo\public/../application/admin\view\wechatapp\config\index.html";i:1554695737;s:84:"Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\view\layout\default.html";i:1547349022;s:81:"Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\view\common\meta.html";i:1547349022;s:83:"Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\view\common\script.html";i:1547349022;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:102:"Z:\Applications\MAMP\htdocs\fastadmindemo\public/../application/admin\view\wechatapp\config\index.html";i:1560740777;s:84:"Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\view\layout\default.html";i:1547349022;s:81:"Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\view\common\meta.html";i:1547349022;s:83:"Z:\Applications\MAMP\htdocs\fastadmindemo\application\admin\view\common\script.html";i:1547349022;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -67,7 +67,12 @@
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade active in" id="one">
                 <div class="widget-body no-padding">
-
+                    <div id="toolbar" class="toolbar">
+                        <a href="javascript:;" class="btn btn-primary btn-refresh" title="<?php echo __('Refresh'); ?>" ><i class="fa fa-refresh"></i> </a>
+                        <a href="javascript:;" class="btn btn-success btn-add <?php echo $auth->check('wechatapp/user/add')?'':'hide'; ?>" title="<?php echo __('Add'); ?>" ><i class="fa fa-plus"></i> <?php echo __('Add'); ?></a>
+                        <a href="javascript:;" class="btn btn-success btn-edit btn-disabled disabled <?php echo $auth->check('wechatapp/user/edit')?'':'hide'; ?>" title="<?php echo __('Edit'); ?>" ><i class="fa fa-pencil"></i> <?php echo __('Edit'); ?></a>
+                        <a href="javascript:;" class="btn btn-danger btn-del btn-disabled disabled <?php echo $auth->check('wechatapp/user/del')?'':'hide'; ?>" title="<?php echo __('Delete'); ?>" ><i class="fa fa-trash"></i> <?php echo __('Delete'); ?></a>
+                    </div>
                     <table id="table" class="table table-striped table-bordered table-hover table-nowrap"
                            data-operate-edit="<?php echo $auth->check('wechatapp/config/edit'); ?>" 
                            data-operate-del="<?php echo $auth->check('wechatapp/config/del'); ?>" 

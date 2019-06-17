@@ -174,31 +174,31 @@ return [
     // +----------------------------------------------------------------------
     // | 缓存设置
     // +----------------------------------------------------------------------
-//    'cache'                  => [
-//        // 驱动方式
-//        'type'   => 'File',
-//        // 缓存保存目录
-//        'path'   => CACHE_PATH,
-//        // 缓存前缀
-//        'prefix' => '',
-//        // 缓存有效期 0表示永久缓存
-//        'expire' => 0,
-//    ],
-//修改缓存设置 改成radis
     'cache'                  => [
         // 驱动方式
-        'type'     => 'Redis',
-        'host'     => Env::get('redis.REDIS_HOST', '127.0.0.1'),
-        'port'     => Env::get('redis.REDIS_PORT', '6379'),
-        'password' => Env::get('redis.REDIS_AUTH_PASSWORD', ''),
-        'timeout'  => 3600,
+        'type'   => 'File',
         // 缓存保存目录
-        'path'     => CACHE_PATH,
+        'path'   => CACHE_PATH,
         // 缓存前缀
-        'prefix'   => '',
+        'prefix' => '',
         // 缓存有效期 0表示永久缓存
-        'expire'   => 0,
+        'expire' => 0,
     ],
+//修改缓存设置 改成radis
+//    'cache'                  => [
+//        // 驱动方式
+//        'type'     => 'Redis',
+//        'host'     => Env::get('redis.REDIS_HOST', '127.0.0.1'),
+//        'port'     => Env::get('redis.REDIS_PORT', '6379'),
+//        'password' => Env::get('redis.REDIS_AUTH_PASSWORD', ''),
+//        'timeout'  => 3600,
+//        // 缓存保存目录
+//        'path'     => CACHE_PATH,
+//        // 缓存前缀
+//        'prefix'   => '',
+//        // 缓存有效期 0表示永久缓存
+//        'expire'   => 0,
+//    ],
     // +----------------------------------------------------------------------
     // | 会话设置
     // +----------------------------------------------------------------------
@@ -275,7 +275,7 @@ return [
         //是否开启前台会员中心
         'usercenter'          => true,
         //登录验证码
-        'login_captcha'       => true,
+        'login_captcha'       => false,
         //登录失败超过10次则1天后重试
         'login_failure_retry' => true,
         //是否同一账号同一时间只能在一个地方登录
